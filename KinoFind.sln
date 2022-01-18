@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{DCFDE202-BA3D-446D-9AF7-D51FA1F9C79F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "back", "back", "{E7DC8188-4A74-411F-B243-24D11CA24DB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F61F184-8A98-4841-BDEA-28DD36008CC5} = {E7DC8188-4A74-411F-B243-24D11CA24DB0}
+		{0C7BCF06-4EA6-4C6A-B2DE-3749252DCEC0} = {E7DC8188-4A74-411F-B243-24D11CA24DB0}
+		{0C596969-2BB5-4E4D-A2EA-9809CDEB96A0} = {E7DC8188-4A74-411F-B243-24D11CA24DB0}
+		{DCFDE202-BA3D-446D-9AF7-D51FA1F9C79F} = {E7DC8188-4A74-411F-B243-24D11CA24DB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B4B725E-6A57-4921-BF9D-F291E147DAF6}
